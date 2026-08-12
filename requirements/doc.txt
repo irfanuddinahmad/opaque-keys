@@ -8,7 +8,7 @@ accessible-pygments==0.0.5
     # via pydata-sphinx-theme
 alabaster==1.0.0
     # via sphinx
-ast-serialize==0.6.0
+ast-serialize==0.8.0
     # via
     #   -r requirements/test.txt
     #   mypy
@@ -41,7 +41,7 @@ code-annotations==3.0.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
-coverage[toml]==7.15.2
+coverage[toml]==7.15.4
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -66,7 +66,7 @@ execnet==2.1.2
     # via
     #   -r requirements/test.txt
     #   pytest-xdist
-hypothesis==6.161.5
+hypothesis==6.165.3
     # via -r requirements/test.txt
 idna==3.18
     # via requests
@@ -86,7 +86,7 @@ jinja2==3.1.6
     #   code-annotations
     #   pydata-sphinx-theme
     #   sphinx
-librt==0.13.0
+librt==0.15.0
     # via
     #   -r requirements/test.txt
     #   mypy
@@ -108,7 +108,7 @@ mypy-extensions==1.1.0
     #   mypy
 nh3==0.3.6
     # via readme-renderer
-packaging==26.2
+packaging==26.3
     # via
     #   -r requirements/test.txt
     #   pytest
@@ -117,7 +117,7 @@ pathspec==1.1.1
     # via
     #   -r requirements/test.txt
     #   mypy
-platformdirs==4.11.0
+platformdirs==4.11.2
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -138,7 +138,7 @@ pygments==2.20.0
     #   pytest
     #   readme-renderer
     #   sphinx
-pylint==4.0.6
+pylint==4.0.7
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -195,7 +195,7 @@ sortedcontainers==2.4.0
     # via
     #   -r requirements/test.txt
     #   hypothesis
-soupsieve==2.9.1
+soupsieve==2.9.2
     # via beautifulsoup4
 sphinx==9.1.0
     # via
