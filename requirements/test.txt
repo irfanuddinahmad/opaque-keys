@@ -31,7 +31,7 @@ dnspython==2.8.0
     # via
     #   -r requirements/base.txt
     #   pymongo
-edx-lint==6.1.0
+edx-lint==6.2.0
     # via -r requirements/test.in
 execnet==2.1.2
     # via pytest-xdist
@@ -67,7 +67,7 @@ pluggy==1.6.0
     #   pytest-cov
 pycodestyle==2.14.0
     # via -r requirements/test.in
-pygments==2.20.0
+pygments==2.21.0
     # via pytest
 pylint==4.0.7
     # via
@@ -102,7 +102,7 @@ six==1.17.0
     # via edx-lint
 sortedcontainers==2.4.0
     # via hypothesis
-stevedore==5.9.0
+stevedore==5.9.1
     # via
     #   -r requirements/base.txt
     #   code-annotations
