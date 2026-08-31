@@ -13,7 +13,7 @@ astroid==4.0.4
     #   -r requirements/test.txt
     #   pylint
     #   pylint-celery
-click==8.4.2
+click==8.5.0
     # via
     #   -r requirements/test.txt
     #   click-log
@@ -27,7 +27,7 @@ code-annotations==3.0.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
-coverage[toml]==7.15.4
+coverage[toml]==7.16.0
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -47,13 +47,13 @@ execnet==2.1.2
     # via
     #   -r requirements/test.txt
     #   pytest-xdist
-hypothesis==6.165.10
+hypothesis==6.167.1
     # via -r requirements/test.txt
 iniconfig==2.3.0
     # via
     #   -r requirements/test.txt
     #   pytest
-isort==8.0.1
+isort==9.0.1
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -80,6 +80,7 @@ mypy==2.3.1
 mypy-extensions==1.1.0
     # via
     #   -r requirements/test.txt
+    #   isort
     #   mypy
 packaging==26.3
     # via
@@ -89,7 +90,7 @@ pathspec==1.1.1
     # via
     #   -r requirements/test.txt
     #   mypy
-platformdirs==4.11.3
+platformdirs==4.11.5
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -104,7 +105,7 @@ pygments==2.21.0
     # via
     #   -r requirements/test.txt
     #   pytest
-pylint==4.0.7
+pylint==4.0.8
     # via
     #   -r requirements/test.txt
     #   edx-lint
