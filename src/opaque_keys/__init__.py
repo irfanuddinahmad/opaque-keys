@@ -12,9 +12,16 @@ from collections import defaultdict
 from functools import total_ordering
 from typing import Self
 
+from importlib.metadata import PackageNotFoundError, version
+
 from stevedore.enabled import EnabledExtensionManager
 
-__version__ = '4.0.0'
+try:
+    __version__ = version("edx-opaque-keys")
+except PackageNotFoundError:  # pragma: no cover
+    # Only hit if this package is imported without being installed at all
+    # (e.g. run directly from a source checkout with no metadata available).
+    pass
 
 
 class InvalidKeyError(Exception):
