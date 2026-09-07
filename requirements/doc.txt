@@ -8,7 +8,7 @@ accessible-pygments==0.0.5
     # via pydata-sphinx-theme
 alabaster==1.0.0
     # via sphinx
-ast-serialize==0.8.0
+ast-serialize==0.9.0
     # via
     #   -r requirements/test.txt
     #   mypy
@@ -118,7 +118,7 @@ pathspec==1.1.1
     # via
     #   -r requirements/test.txt
     #   mypy
-platformdirs==4.11.5
+platformdirs==4.11.7
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -159,7 +159,7 @@ pylint-plugin-utils==0.9.0
     #   -r requirements/test.txt
     #   pylint-celery
     #   pylint-django
-pymongo==4.17.0
+pymongo==4.18.0
     # via -r requirements/test.txt
 pytest==9.1.1
     # via
