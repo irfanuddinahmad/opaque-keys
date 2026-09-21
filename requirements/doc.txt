@@ -68,7 +68,7 @@ execnet==2.1.2
     #   pytest-xdist
 hypothesis==6.168.0
     # via -r requirements/test.txt
-idna==3.19
+idna==3.20
     # via requests
 imagesize==2.0.1
     # via sphinx
@@ -118,7 +118,7 @@ pathspec==1.1.1
     # via
     #   -r requirements/test.txt
     #   mypy
-platformdirs==4.11.8
+platformdirs==4.11.11
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -170,7 +170,7 @@ pytest-cov==7.1.0
     # via -r requirements/test.txt
 pytest-xdist==3.8.0
     # via -r requirements/test.txt
-python-slugify==9.0.0
+python-slugify==9.1.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -235,5 +235,5 @@ typing-extensions==4.16.0
     #   -r requirements/test.txt
     #   beautifulsoup4
     #   mypy
-urllib3==2.7.0
+urllib3==2.8.0
     # via requests
